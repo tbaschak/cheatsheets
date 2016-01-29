@@ -29,13 +29,13 @@ defaults:
       category: "Others"
 
 # Site info
-url: http://ricostacruz.com/cheatsheets
+url: https://cheatsheets.ciscodude.net
 title: Cheatsheets
 
 # Google analytics
-analytics:
-  hostname: ricostacruz.com
-  id: "UA-20473929-1"
+#analytics:
+#  hostname: ricostacruz.com
+#  id: "UA-20473929-1"
 
 category_names:
   - Ansible
