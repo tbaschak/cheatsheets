@@ -25,12 +25,40 @@ category: SaltStack
 
 ## Daily Sysadmin Stuff
 
+    $ sudo salt 'minion-x-*' system.reboot                        # reboot minions that match minion-x-*
+    $ sudo salt '*' status.uptime                                 # Get the uptime of all our minions
     $ sudo salt -v -G owner:theo pkg.list_upgrades                # List available package updates for Theo's minions
     $ sudo salt "web*" pkg.install dstat                          # Install a package on matching Salt Minions
     $ sudo salt "*" ps.grep apache                                # Check if a specific application/process is running
     $ sudo salt "web*" cp.push /var/log/dpkg.log                  # Gather/collect/pull files from Salt minions and upload them to the master
     $ sudo salt "*" file.contains /etc/hosts.allow "yber"         # Check if a file on the Salt minions contains a certain string
     $ sudo salt-cp "*" some_script.py /target-dir/some_script.py  # Push or upload or copy a file from the Salt master to the Salt minions
+
+## Packages
+
+    $ sudo salt '*' pkg.list_upgrades             # get a list of packages that need to be upgrade
+    $ sudo salt '*' pkg.refresh_db                # refreshes package db (apt-get update)
+    $ sudo salt '*' pkg.upgrade                   # Upgrades all packages via apt-get dist-upgrade (or similar)
+    $ sudo salt '*' pkg.version bash              # get current version of the bash package
+    $ sudo salt '*' pkg.install bash              # install or upgrade bash package
+    $ sudo salt '*' pkg.install bash refresh=True # install or upgrade bash package but
+                                                  # refresh the package database before installing.
+
+## System Services
+
+    $ sudo salt '*' service.status <service name
+    $ sudo salt '*' service.available <service name>
+    $ sudo salt '*' service.start <service name>
+    $ sudo salt '*' service.restart <service name>
+    $ sudo salt '*' service.stop <service name
+
+## Network
+
+    $ sudo salt 'minion1' network.ip_addrs              # Get IP of your minion
+    $ sudo salt 'minion1' network.ping <hostname>       # Ping a host from your minion
+    $ sudo salt 'minion1' network.traceroute <hostname> # Traceroute a host from your minion
+    $ sudo salt 'minion1' network.get_hostname          # Get hostname
+    $ sudo salt 'minion1' network.mod_hostname          # Modify hostname
 
 ## Job Management
 
@@ -71,5 +99,6 @@ category: SaltStack
   * [Salt-Cloud](http://docs.saltstack.com/en/latest/topics/cloud/)
   * [Jobs](http://docs.saltstack.com/en/latest/topics/jobs/)
 
-
-
+## This list is partly inspired by the fine lists on:
+  * http://www.xenuser.org/saltstack-cheat-sheet/
+  * https://github.com/saltstack/salt/wiki/Cheat-Sheet
