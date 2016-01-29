@@ -8,4 +8,5 @@ build: bundle
 
 bundle:
 	ruby -v
-	bundle
+	bundle install --path vendor/bundle
+
