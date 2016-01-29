@@ -15,24 +15,24 @@ category: SaltStack
     $ sudo salt-run manage.up       # Shows what Minions are up
     $ sudo salt-run manage.down     # Shows what Minions are down or not connected
     $ sudo salt-run manage.status   # Shows both online and offline Minions
-    $ sudo salt -v \* test.ping     # Pings all minions
+    $ sudo salt '*'' test.ping     # Pings all minions
 
 ## Targetting Minions
 
-    $ sudo salt "*" some_module                    # target all Salt Minions
-    $ sudo salt "web*" some_module                 # Target Minion(s) based on their Minion ID
-    $ sudo salt -G "oscodename:wheezy" some_module # Target Minions based on their grains
+    $ sudo salt '*' some_module                    # target all Salt Minions
+    $ sudo salt 'web*' some_module                 # Target Minion(s) based on their Minion ID
+    $ sudo salt -G 'oscodename:wheezy' some_module # Target Minions based on their grains
 
 ## Daily Sysadmin Stuff
 
     $ sudo salt 'minion-x-*' system.reboot                        # reboot minions that match minion-x-*
     $ sudo salt '*' status.uptime                                 # Get the uptime of all our minions
     $ sudo salt -v -G owner:theo pkg.list_upgrades                # List available package updates for Theo's minions
-    $ sudo salt "web*" pkg.install dstat                          # Install a package on matching Salt Minions
-    $ sudo salt "*" ps.grep apache                                # Check if a specific application/process is running
-    $ sudo salt "web*" cp.push /var/log/dpkg.log                  # Gather/collect/pull files from Salt minions and upload them to the master
-    $ sudo salt "*" file.contains /etc/hosts.allow "yber"         # Check if a file on the Salt minions contains a certain string
-    $ sudo salt-cp "*" some_script.py /target-dir/some_script.py  # Push or upload or copy a file from the Salt master to the Salt minions
+    $ sudo salt 'web*' pkg.install dstat                          # Install a package on matching Salt Minions
+    $ sudo salt '*' ps.grep apache                                # Check if a specific application/process is running
+    $ sudo salt 'web*' cp.push /var/log/dpkg.log                  # Gather/collect/pull files from Salt minions and upload them to the master
+    $ sudo salt '*' file.contains /etc/hosts.allow 'yber'         # Check if a file on the Salt minions contains a certain string
+    $ sudo salt-cp '*' some_script.py /target-dir/some_script.py  # Push or upload or copy a file from the Salt master to the Salt minions
 
 ## Packages
 
@@ -71,8 +71,8 @@ category: SaltStack
 ## States
 
     $ sudo salt-run state.highstate               # runs all states targetted for a minion, on a minion
-    $ sudo salt "ns*" state.highstate             # runs all states targetted for a minion, from master
-    $ sudo salt "web*" state.sls settings.nginx   # runs settings/nginx/init.sls on web*
+    $ sudo salt 'ns*' state.highstate             # runs all states targetted for a minion, from master
+    $ sudo salt 'web*' state.sls settings.nginx   # runs settings/nginx/init.sls on web*
 
 ## Grains
 
@@ -84,8 +84,8 @@ category: SaltStack
 
 ## Other Awesome Commands
 
-    $ sudo salt "*" cmd.run "uname -a"          # Show running kernel and OS info on all minions
-    $ sudo salt "*" cmd.run "df -h"             # Show Diskspace info on all minions (Unix hopefully LOL)
+    $ sudo salt '*' cmd.run 'uname -a'          # Show running kernel and OS info on all minions
+    $ sudo salt '*' cmd.run 'df -h'             # Show Diskspace info on all minions (Unix hopefully LOL)
 
 ## Documentation on the system
     $ sudo salt '*' sys.doc             # output sys.doc (= all documentation)
