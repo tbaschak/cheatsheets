@@ -15,10 +15,10 @@ category: CLI
 ### Share your public key
 
     # via file
-    gpg --armor --output pub.txt --export "Rico Sta. Cruz"
+    gpg --armor --output pub.txt --export "Theodore Baschak"
 
     # via server
-    gpg --send-keys "Rico Sta. Cruz" --keyserver http://...
+    gpg --send-keys "Theodore Baschak" --keyserver http://...
 
 ### Key management
 

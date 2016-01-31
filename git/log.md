@@ -27,8 +27,8 @@ git log
       --since="1 week ago"
       --until="yesterday"
 
-      --author="Rico"
-      --committer="Rico"
+      --author="Theo"
+      --committer="Theo"
 ```
 
 ### Search

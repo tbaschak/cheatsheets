@@ -76,8 +76,8 @@ Here are some badges for open source projects.
 
 ### Acknowledgements
 
-    **PROJECTNAME** © 2014+, Rico Sta. Cruz. Released under the [MIT] License.<br>
-    Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+    **PROJECTNAME** © 2014+, Theodore Baschak. Released under the [MIT] License.<br>
+    Authored and maintained by Theodore Baschak with help from contributors ([list][contributors]).
 
     > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
     > GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
