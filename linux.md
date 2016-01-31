@@ -11,3 +11,5 @@ title: Linux
     sudo visudo
 
     username ALL=(ALL) NOPASSWD:/sbin/restart whatever
+    theodore ALL=(ALL:ALL) NOPASSWD: /usr/bin/salt
+
