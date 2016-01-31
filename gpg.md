@@ -1,7 +1,11 @@
+---
+title: GPG
+category: CLI
+---
 
 ### Encrypt decrypt
 
-    gpg --encrypt --recepient 'James Receiverson' foo.txt
+    gpg --encrypt --recipient 'James Receiverson' foo.txt
     gpg --decrypt foo.txt.gpg
 
 ### Making keys
