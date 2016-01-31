@@ -3,6 +3,10 @@ title: SaltStack Returners
 category: SaltStack
 ---
 
+## CouchDB
+
+The CouchDB returner lets you return anything from Salt to a CouchDB. The id field is set to the job ID, so it is recommended to use a unique db for each minion.
+
 ### Config Requirements
 
     couchdb.db: 'salt'                              # DB to return to
