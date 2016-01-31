@@ -25,6 +25,14 @@ category: CLI
     gpg --list-keys
     gpg --delete-key 'email@addie'
 
+### Verifying Detached Signatures
+
+	gpg --verify crucial.tar.gz{.asc,}
+
+### Create Detached Signatures
+
+	gpg --armor --detach-sign your-file.zip
+
 ### See
     
 * https://www.madboa.com/geek/gpg-quickstart/

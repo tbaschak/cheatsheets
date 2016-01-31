@@ -1,5 +1,5 @@
 ---
-title: Semver
+title: Semantic Versioning
 ---
 
 Given a version number `MAJOR.MINOR.PATCH`:
