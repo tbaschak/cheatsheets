@@ -1,6 +1,5 @@
 ---
 title: Perl-pie
-category: Development
 ---
 
 ### Search and replace
