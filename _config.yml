@@ -47,13 +47,10 @@ category_names:
   - Go libraries
   - HTML
   - JavaScript
-  - Ledger
   - Markup
-  - Node.js
-  - Rails
-  - React
+  - Python
+  - Python libraries
   - Ruby
-  - Ruby libraries
   - SaltStack
   - Vim
   - Others
