@@ -38,7 +38,6 @@ title: Cheatsheets
 #  id: "UA-20473929-1"
 
 category_names:
-  - Ansible
   - Apps
   - CLI
   - CSS
@@ -46,7 +45,6 @@ category_names:
   - Git
   - HTML
   - JavaScript
-  - JavaScript libraries
   - Ledger
   - Markup
   - Node.js
