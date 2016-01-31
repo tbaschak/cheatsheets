@@ -10,3 +10,5 @@ bundle:
 	ruby -v
 	bundle install --path vendor/bundle
 
+rsync: build
+	rsync --delete -rav _/site/* web:/var/www/cheatsheets
