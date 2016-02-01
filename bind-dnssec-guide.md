@@ -77,3 +77,7 @@ $ dig @192.168.1.13 example.com. DNSKEY | dnssec-dsfromkey -f - example.com
 example.com. IN DS 6817 8 1 59194A835ACD78D25D538D5F35CA043A8F3F4446
 example.com. IN DS 6817 8 2 2A5F1DF55D5E64CBD7BCFE1EFA6E9586AF335FA56A2473296E975B89AFD31E11
 ```
+
+### Refs
+
+*	http://users.isc.org/~jreed/dnssec-guide/dnssec-guide.html
