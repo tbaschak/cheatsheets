@@ -16,8 +16,6 @@ Kexample.com.+008+06817
 
 ### Reconfigure BIND
 
-Simple `named.conf`:
-
 ```
 options {
     directory "/etc/bind";
