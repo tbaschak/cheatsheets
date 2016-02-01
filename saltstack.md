@@ -53,6 +53,7 @@ category: SaltStack
   * [Storing Static Data In The Pillar](https://docs.saltstack.com/en/latest/topics/pillar/)
   * [Walkthru Tutorial](https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html)
   * [Hardening Salt](https://docs.saltstack.com/en/latest/topics/hardening.html)
+  * [Git Fileserver Backend Walkthrough](https://docs.saltstack.com/en/latest/topics/tutorials/gitfs.html)
 
 ### This list is partly inspired by the fine lists on:
   * http://www.xenuser.org/saltstack-cheat-sheet/

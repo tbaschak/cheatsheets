@@ -1,6 +1,6 @@
 ---
 title: Bundler
-category: Ruby
+category: Code
 ---
 
 ### Commands

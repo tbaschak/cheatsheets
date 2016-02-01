@@ -1,5 +1,6 @@
 ---
 title: Code stuff
+category: Code
 ---
 
 Here are some badges for open source projects.

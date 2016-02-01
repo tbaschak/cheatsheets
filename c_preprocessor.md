@@ -1,5 +1,6 @@
 ---
 title: C Preprocessor
+category: code
 ---
 
 ### Compiling

@@ -41,12 +41,10 @@ category_names:
   - Apps
   - Cisco
   - CLI
+  - Code
   - Devops
   - Git
-  - Go
   - Markup
-  - Python
-  - Ruby
   - SaltStack
   - Vim
   - WebDev

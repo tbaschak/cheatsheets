@@ -1,5 +1,6 @@
 ---
 title: AppleScript
+category: CLI
 ---
 
 Running

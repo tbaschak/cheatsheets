@@ -1,6 +1,6 @@
 ---
 title: Go Traffic
-category: Go
+category: Code
 ---
 
 ### Traffic Installation

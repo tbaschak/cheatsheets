@@ -1,6 +1,6 @@
 ---
 title: Rubygems
-category: Ruby
+category: Code
 ---
 
     gem build *.gemspec         # Build a gem
