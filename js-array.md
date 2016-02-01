@@ -1,6 +1,6 @@
 ---
 title: JavaScript arrays
-category: JavaScript
+category: WebDev
 ---
 
 ## JavaScript arrays

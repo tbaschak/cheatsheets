@@ -1,6 +1,6 @@
 ---
 title: JavaScript Date
-category: JavaScript
+category: WebDev
 ---
 
 ### Constructor

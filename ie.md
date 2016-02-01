@@ -1,6 +1,6 @@
 ---
 title: Internet Explorer
-category: HTML
+category: WebDev
 ---
 
 ## CSS Selectors

@@ -1,6 +1,6 @@
 ---
 title: Stylus
-category: CSS
+category: WebDev
 ---
 
 ### Variables

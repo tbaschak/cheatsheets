@@ -1,6 +1,6 @@
 ---
 title: Microformats
-category: HTML
+category: WebDev
 ---
 
 ### Author

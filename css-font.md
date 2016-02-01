@@ -1,6 +1,6 @@
 ---
 title: CSS font
-category: CSS
+category: WebDev
 ---
 
     font: italic 400    14px     / 1.5       sans-serif;

@@ -41,17 +41,13 @@ category_names:
   - Apps
   - Cisco
   - CLI
-  - CSS
   - Devops
   - Git
   - Go
-  - Go libraries
-  - HTML
-  - JavaScript
   - Markup
   - Python
-  - Python libraries
   - Ruby
   - SaltStack
   - Vim
+  - WebDev
   - Others

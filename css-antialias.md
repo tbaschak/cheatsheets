@@ -1,6 +1,6 @@
 ---
 title: CSS antialiasing
-category: CSS
+category: WebDev
 ---
 
     * {

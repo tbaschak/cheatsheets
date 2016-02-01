@@ -1,6 +1,6 @@
 ---
 title: Meta tags
-category: HTML
+category: WebDev
 ---
 
 ```html

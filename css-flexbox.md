@@ -1,6 +1,6 @@
 ---
 title: CSS flexbox
-category: CSS
+category: WebDev
 ---
 
     .container {

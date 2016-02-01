@@ -1,6 +1,6 @@
 ---
 title: Canvas
-category: JavaScript
+category: WebDev
 ---
 
 ### Getting the context

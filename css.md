@@ -1,6 +1,6 @@
 ---
 title: CSS tricks
-category: CSS
+category: WebDev
 ---
 
 ### Heading kerning pairs and ligature

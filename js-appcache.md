@@ -1,6 +1,6 @@
 ---
 title: applicationCache
-category: JavaScript
+category: WebDev
 ---
 
 ### applicationCache checking

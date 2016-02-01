@@ -1,6 +1,6 @@
 ---
 title: Sass
-category: CSS
+category: WebDev
 ---
 
 ### Color functions

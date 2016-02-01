@@ -1,6 +1,6 @@
 ---
 title: IE bugs
-category: HTML
+category: WebDev
 ---
 
 ### IE8: 'change' event doesn't always fire

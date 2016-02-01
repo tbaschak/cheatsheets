@@ -1,6 +1,6 @@
 ---
 title: CSS selectors
-category: CSS
+category: WebDev
 ---
 
     [attr="value"]       /*  =   exact */

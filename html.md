@@ -1,6 +1,6 @@
 ---
 title: HTML
-category: HTML
+category: WebDev
 ---
 
 ### Head stuff

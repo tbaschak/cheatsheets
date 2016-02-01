@@ -1,6 +1,6 @@
 ---
 title: Input tag
-category: HTML
+category: WebDev
 ---
 
      <input ...

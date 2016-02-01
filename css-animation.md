@@ -1,6 +1,6 @@
 ---
 title: CSS animations
-category: CSS
+category: WebDev
 ---
 
     animation: bounce 300ms    linear          100ms infinite alternate-reverse;

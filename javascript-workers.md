@@ -1,6 +1,6 @@
 ---
 title: JavaScript workers
-category: JavaScript
+category: WebDev
 ---
 
 ## Web workers

@@ -1,6 +1,6 @@
 ---
 title: HTML/CSS
-category: HTML
+category: WebDev
 ---
 
 ### CSS - Selectors

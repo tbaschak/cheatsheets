@@ -1,6 +1,6 @@
 ---
 title: Applinks
-category: HTML
+category: WebDev
 ---
 
 

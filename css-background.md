@@ -1,6 +1,6 @@
 ---
 title: CSS background
-category: CSS
+category: WebDev
 ---
 
 Background
