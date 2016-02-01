@@ -1,6 +1,7 @@
 ---
 title: Makefile
 hljs_languages: [makefile]
+category: Code
 ---
 
 ## Var assignment

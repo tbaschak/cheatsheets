@@ -1,6 +1,7 @@
 ---
 title: Jekyll
 jekyll_escape: true
+category: Code
 ---
 
 {% raw %}

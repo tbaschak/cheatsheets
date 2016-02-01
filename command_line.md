@@ -1,5 +1,6 @@
 ---
 title: Command line stuff
+category: CLI
 ---
 
 ## List (ls)

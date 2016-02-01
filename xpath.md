@@ -1,6 +1,6 @@
 ---
 title: Xpath
-category: HTML
+category: WebDev
 ---
 
 ### Descendant selectors

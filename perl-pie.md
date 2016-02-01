@@ -1,5 +1,6 @@
 ---
 title: Perl-pie
+category: CLI
 ---
 
 ### Search and replace

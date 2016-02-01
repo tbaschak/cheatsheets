@@ -1,5 +1,6 @@
 ---
 title: Debian
+category: CLI
 ---
 
 ### apt/dpkg stuff

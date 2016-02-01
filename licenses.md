@@ -1,6 +1,7 @@
 ---
 title: Licenses
 section: Development
+category: code
 ---
 
 ### MIT License

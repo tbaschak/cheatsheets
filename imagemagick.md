@@ -1,5 +1,6 @@
 ---
 title: Imagemagick
+category: CLI
 ---
 
 ### Stuff

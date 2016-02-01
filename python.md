@@ -1,6 +1,6 @@
 ---
 title: Python
-category: Python
+category: Code
 ---
 
 ### Lists

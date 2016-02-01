@@ -1,6 +1,7 @@
 ---
 title: Make for assets
 hljs_languages: [makefile]
+category: Code
 ---
 
 ## Basic compiling

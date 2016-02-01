@@ -1,5 +1,6 @@
 ---
 title: RESTful API
+category: webdev
 ---
 
 ### Status codes

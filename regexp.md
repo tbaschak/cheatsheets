@@ -1,5 +1,6 @@
 ---
 title: Regexp
+category: code
 ---
 
     (?P<named_match>...)

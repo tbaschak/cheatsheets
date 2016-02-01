@@ -1,5 +1,6 @@
 ---
 title: Resolutions
+category: webdev
 ---
 
 ## Phones

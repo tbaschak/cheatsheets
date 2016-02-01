@@ -1,5 +1,6 @@
 ---
 title: Homebrew
+category: CLI
 ---
 
 ### Commands

@@ -1,5 +1,6 @@
 ---
 title: Linux
+category: CLI
 ---
 
 ### Mounting a RAM drive

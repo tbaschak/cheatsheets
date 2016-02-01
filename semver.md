@@ -1,5 +1,6 @@
 ---
 title: Semantic Versioning
+category: code
 ---
 
 Given a version number `MAJOR.MINOR.PATCH`:

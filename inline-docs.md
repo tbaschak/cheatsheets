@@ -1,5 +1,6 @@
 ---
 title: Inline documentation
+category: code
 ---
 
 * Ruby: rdoc
