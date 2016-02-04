@@ -71,3 +71,11 @@ Edit `/var/www/html/ulg/.htaccess`:
 Options +ExecCGI
 AddHandler cgi-script .py
 ```
+
+### Redirect from /
+
+If you visit the base hostname `lg.<yourname>.com` you'll get some OS-default Apache page. Replace that with the following:
+
+```html
+<meta http-equiv="refresh" content="0;URL='/ulg/ulg.py'" />    
+```
