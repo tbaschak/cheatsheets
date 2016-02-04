@@ -1,5 +1,5 @@
 # files
-layouts: ./_/layouts
+layouts_dir: ./_/layouts
 destination: ./_/site
 sass:
   sass_dir: ./_/sass
