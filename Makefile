@@ -11,4 +11,8 @@ bundle:
 	bundle install --path vendor/bundle
 
 rsync: build
-	rsync --delete -rav _/site/* web:/var/www/cheatsheets
+	rsync --delete -rav _/site/* web:/var/www/cheatsheets | lolcat
+
+push:
+	@git push origin gh-pages
+	@git push git0 gh-pages
