@@ -74,7 +74,7 @@ AddHandler cgi-script .py
 
 ### Redirect from /
 
-If you visit the base hostname `lg.<yourname>.com` you'll get some OS-default Apache page. Replace that with the following:
+If you visit the base hostname `lg.<yourname>.com` you'll get some OS-default Apache page. Replace that with the following in `/var/www/html/index.html` (likely, depends on your OS though)
 
 ```html
 <meta http-equiv="refresh" content="0;URL='/ulg/ulg.py'" />    
