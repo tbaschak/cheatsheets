@@ -5,10 +5,10 @@ category: CLI
 ### Check Config
 
 ```
-$ sudo birdc6 
+$ sudo birdc
 BIRD 1.5.0 ready.
 bird> configure check 
-Reading configuration from /etc/bird/bird6.conf
+Reading configuration from /etc/bird/bird.conf
 Configuration OK
 bird>
 ```
@@ -16,10 +16,10 @@ bird>
 ### Reload Config
 
 ```
-$ sudo birdc6 
+$ sudo birdc
 BIRD 1.5.0 ready.
 bird> configure 
-Reading configuration from /etc/bird/bird6.conf
+Reading configuration from /etc/bird/bird.conf
 Reconfigured
 bird>
 ```
